@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Search</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+
+<body>
+    <header class="header">
+
+        <ul class="nav-bar">
+            <li class="nav-item"><a href="./image.html">Зображення</a></li>
+            <li class="nav-item"><a href="./index.html">Повернутися до результатів пошуку</a></li>
+        </ul>
+
+    </header>
+
+    
+    <form action="https://google.com/search" class="advanced-form">
+        <p class="advanced-title">Шукати:</p>
+     <ul class="advanced-list">
+            <li><label for="word"><span>зі словами:</span><input type="text"id="word"name="word" placeholder=" "></label>
+                <input type="submit"class="submit-btn"value="пошук"></li>
+            
+                <li><label for="word-combination"><span> зі словосполученням:</span><input type="text" id="word-combination" name="word"></label>
+                   <input type="submit" class="submit-btn"value="пошук">
+                </li>
+                <li><label for="any"><span> з будь-яким із цих слів:</span><input type="text" id="any" name="word"></label>
+                    <input type="submit"class="submit-btn"value="пошук">
+                </li>
+        <li><label for="without"><span> без слів</span><input type="text" id="without" name="word"></label>
+            <input type="submit"class="submit-btn"value="пошук">
+        </li>
+        <li><label for="range"><span> з діапазоном чисел:</span><input type="text" id="range" name="word"></label>
+            <input type="submit"class="submit-btn"value="пошук">
+        </li>
+      
+    </ul>
+    </form>
+</body>
+
+</html>
